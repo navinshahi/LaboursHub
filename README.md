@@ -58,13 +58,13 @@ Stores user and labor profiles, credentials, and application data.
 <hr>
 <h3>API Integration Flow</h3>
 
-The React frontend sends user actions (login, registration, search requests) via REST API calls.
+<p>1. The React frontend sends user actions (login, registration, search requests) via REST API calls.</p>
 
-The Spring Boot backend validates requests and generates JWT tokens for authenticated sessions.
+<p>2. The Spring Boot backend validates requests and generates JWT tokens for authenticated sessions.</p>
 
-Protected endpoints require a valid JWT token in the request headers.
+<p>3. Protected endpoints require a valid JWT token in the request headers.</p>
 
-MySQL stores all user and labor data, managed through JPA repositories.
+<p>4. MySQL stores all user and labor data, managed through JPA repositories.</p>
 <hr>
 <h3>Future Enhancements</h3>
 <p>1. Implement geolocation-based search instead of manual city input.</p>

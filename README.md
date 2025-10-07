@@ -25,7 +25,7 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 <h3>Technology Stack</h3>
 <h4>Frontend</h4>
-Framework: React.js
+<b>Framework:</b> React.js
 
 UI Design: Bootstrap & CSS
 

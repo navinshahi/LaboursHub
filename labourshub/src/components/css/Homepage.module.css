@@ -1,0 +1,23 @@
+.hero {
+  background: radial-gradient(
+      1000px 500px at 10% 10%,
+      rgba(13, 110, 253, 0.15),
+      transparent
+    ),
+    radial-gradient(
+      800px 400px at 90% 20%,
+      rgba(32, 201, 151, 0.15),
+      transparent
+    ),
+    radial-gradient(
+      600px 300px at 50% 90%,
+      rgba(255, 193, 7, 0.12),
+      transparent
+    ),
+    #0d6efd10;
+}
+.cardHover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: 0.2s;
+}

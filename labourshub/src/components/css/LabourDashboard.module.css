@@ -1,0 +1,117 @@
+.body1{
+  background: radial-gradient(
+      1000px 500px at 10% 10%,
+      rgba(13, 110, 253, 0.15),
+      transparent
+    ),
+    radial-gradient(
+      800px 400px at 90% 20%,
+      rgba(32, 201, 151, 0.15),
+      transparent
+    ),
+    radial-gradient(
+      600px 300px at 50% 90%,
+      rgba(255, 193, 7, 0.12),
+      transparent
+    ),
+    #0d6efd10;
+}
+/* Page */
+
+/* Cards and fields */
+.cardRounded {
+  border-radius: 12px;
+}
+
+.profilePic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #e5e7eb;
+}
+
+.field {
+  display: flex;
+  gap: 12px;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.field:last-child {
+  border-bottom: 0;
+}
+
+.label {
+  min-width: 160px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.stars {
+  color: #f59e0b;
+}
+
+/* CSS-only popups (using :target) */
+.modalMask {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.45);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1050;
+}
+
+.modalCard {
+  width: 100%;
+  max-width: 620px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+  max-height: 90svh; /* mobile-safe viewport height */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modalHeader {
+  padding: .75rem 1rem;
+  border-bottom: 1px solid #eef2f7;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.modalBody {
+  padding: 1rem;
+  overflow: auto; /* inner scroll */
+}
+
+.modalFooter {
+  padding: .75rem 1rem;
+  border-top: 1px solid #eef2f7;
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+/* Small screens */
+@media (max-width: 575.98px) {
+  .modalMask { padding: .5rem; }
+  .modalCard { border-radius: 10px; max-height: 92svh; }
+  .modalBody { padding: .75rem; }
+}
+
+
+/* Stack fields on small screens */
+@media (max-width: 991.98px) {
+  .field { flex-direction: column; }
+  .label { min-width: auto; }
+}

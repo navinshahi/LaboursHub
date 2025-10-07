@@ -4,6 +4,8 @@ Find trusted labours in your city
 <h3>Overview</h3>
 Labour Hub is a web platform that connects labor professionals with users seeking their services. The application allows laborers to register, manage their profiles, and be discoverable by users in the same city. Users can register, log in, search for available laborers in their area, and contact them for work opportunities.
 
+<hr>
+
 <h3>Key Features</h3>
 
 <h4>1. Labour Registration & Login:</h4> Labor professionals can register, log in, and update their profile details like name, skills, experience, and city.

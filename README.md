@@ -1,6 +1,69 @@
 # LaboursHub
 Find trusted labours in your city
 <h2>About this project</h2>
+<h3>Overview</h3>
+Labour Hub is a web platform that connects labor professionals with users seeking their services. The application allows laborers to register, manage their profiles, and be discoverable by users in the same city. Users can register, log in, search for available laborers in their area, and contact them for work opportunities.
+
+<h3>Key Features</h3>
+
+Labour Registration & Login: Labor professionals can register, log in, and update their profile details like name, skills, experience, and city.
+
+User Registration & Login: Normal users can create accounts, browse available laborers, and view profiles based on their selected city.
+
+Profile Management: Each registered user or laborer can update their personal details and profile picture.
+
+City-Based Search: Users can easily search and view laborers located within their city.
+
+Secure Authentication: Implemented JWT (JSON Web Token) for secure login and access control between frontend and backend.
+
+Responsive Interface: Frontend designed with React.js for an interactive and mobile-friendly experience.
+
+<h3>Technology Stack</h3>
+Frontend
+Framework: React.js
+
+UI Design: Bootstrap & CSS
+
+API Integration: Axios used for communication with the backend REST APIs
+
+Backend
+Framework: Spring Boot
+
+Security: JWT Authentication for token-based login protection
+
+Database: MySQL for persistent data storage
+
+ORM: Spring Data JPA for database operations
+
+REST APIs: Developed various endpoints for registration, authentication, profile management, and data retrieval
+
+<h3>System Architecture</h3>
+Frontend (React):
+Handles user interaction, routing between pages, and communicates with backend APIs using Axios.
+
+Backend (Spring Boot):
+Manages authentication, authorization, data validation, and API responses.
+
+Database (MySQL):
+Stores user and labor profiles, credentials, and application data.
+
+<h3>API Integration Flow</h3>
+The React frontend sends user actions (login, registration, search requests) via REST API calls.
+
+The Spring Boot backend validates requests and generates JWT tokens for authenticated sessions.
+
+Protected endpoints require a valid JWT token in the request headers.
+
+MySQL stores all user and labor data, managed through JPA repositories.
+
+<h3>Future Enhancements</h3>
+Implement geolocation-based search instead of manual city input.
+
+Add user reviews and ratings for labor professionals.
+
+Enable direct messaging or chat between users and labors.
+
+Deploy on cloud platforms (e.g., AWS, Azure) for production use.
 
 <h2>Screenshots:-</h2>
 <img align="right" src="Screenshots/Screenshot (278).png" width="100%" height="100%">

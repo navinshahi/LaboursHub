@@ -57,6 +57,7 @@ Manages authentication, authorization, data validation, and API responses.
 Stores user and labor profiles, credentials, and application data.
 <hr>
 <h3>API Integration Flow</h3>
+
 The React frontend sends user actions (login, registration, search requests) via REST API calls.
 
 The Spring Boot backend validates requests and generates JWT tokens for authenticated sessions.

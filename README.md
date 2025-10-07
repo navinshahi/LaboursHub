@@ -6,9 +6,9 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 <h3>Key Features</h3>
 
-Labour Registration & Login: Labor professionals can register, log in, and update their profile details like name, skills, experience, and city.
+<h4>1. Labour Registration & Login:</h4> Labor professionals can register, log in, and update their profile details like name, skills, experience, and city.
 
-User Registration & Login: Normal users can create accounts, browse available laborers, and view profiles based on their selected city.
+<h4>2. User Registration & Login:</h4> Normal users can create accounts, browse available laborers, and view profiles based on their selected city.
 
 Profile Management: Each registered user or laborer can update their personal details and profile picture.
 
@@ -17,6 +17,7 @@ City-Based Search: Users can easily search and view laborers located within thei
 Secure Authentication: Implemented JWT (JSON Web Token) for secure login and access control between frontend and backend.
 
 Responsive Interface: Frontend designed with React.js for an interactive and mobile-friendly experience.
+
 
 <h3>Technology Stack</h3>
 Frontend

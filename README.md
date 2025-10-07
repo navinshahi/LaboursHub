@@ -24,34 +24,34 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 
 <h3>Technology Stack</h3>
-<h4>Frontend</h4>
+<h4>1. Frontend</h4>
 <b>Framework:</b> React.js
 
-UI Design: Bootstrap & CSS
+<b>UI Design:</b> Bootstrap & CSS
 
-API Integration: Axios used for communication with the backend REST APIs
+<b>API Integration:</b> Axios used for communication with the backend REST APIs
 
-Backend
-Framework: Spring Boot
+<h4>2. Backend</h4>
+<b>Framework:</b> Spring Boot
 
-Security: JWT Authentication for token-based login protection
+<b>Security:</b> JWT Authentication for token-based login protection
 
-Database: MySQL for persistent data storage
+<b>Database:</b> MySQL for persistent data storage
 
-ORM: Spring Data JPA for database operations
+<b>ORM:</b> Spring Data JPA for database operations
 
-REST APIs: Developed various endpoints for registration, authentication, profile management, and data retrieval
+<b>REST APIs:</b> Developed various endpoints for registration, authentication, profile management, and data retrieval
 
 <hr>
 
 <h3>System Architecture</h3>
-Frontend (React):
+<h4>Frontend (React):</h4>
 Handles user interaction, routing between pages, and communicates with backend APIs using Axios.
 
-Backend (Spring Boot):
+<h4>Backend (Spring Boot):</h4>
 Manages authentication, authorization, data validation, and API responses.
 
-Database (MySQL):
+<h4>Database (MySQL):</h4>
 Stores user and labor profiles, credentials, and application data.
 <hr>
 <h3>API Integration Flow</h3>

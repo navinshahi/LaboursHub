@@ -10,22 +10,22 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 <h4>2. User Registration & Login:</h4> Normal users can create accounts, browse available laborers, and view profiles based on their selected city.
 
-Profile Management: Each registered user or laborer can update their personal details and profile picture.
+<h4>3. Profile Management:</h4> Each registered user or laborer can update their personal details and profile picture.
 
-City-Based Search: Users can easily search and view laborers located within their city.
+<h4>4. City-Based Search:</h4> Users can easily search and view laborers located within their city.
 
-Secure Authentication: Implemented JWT (JSON Web Token) for secure login and access control between frontend and backend.
+<h4>5. Secure Authentication:</h4> Implemented JWT (JSON Web Token) for secure login and access control between frontend and backend.
 
-Responsive Interface: Frontend designed with React.js for an interactive and mobile-friendly experience.
+<h4>6. Responsive Interface:</h4> Frontend designed with React.js for an interactive and mobile-friendly experience.
 
 
 <h3>Technology Stack</h3>
-Frontend
-Framework: React.js
+<h4>Frontend</h4>
+<h5>Framework:</h5> React.js
 
-UI Design: Bootstrap & CSS
+<h5>UI Design:</h5> Bootstrap & CSS
 
-API Integration: Axios used for communication with the backend REST APIs
+<h5>API Integration:</h5> Axios used for communication with the backend REST APIs
 
 Backend
 Framework: Spring Boot

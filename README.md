@@ -67,13 +67,13 @@ Protected endpoints require a valid JWT token in the request headers.
 MySQL stores all user and labor data, managed through JPA repositories.
 <hr>
 <h3>Future Enhancements</h3>
-1. Implement geolocation-based search instead of manual city input.
+<p>1. Implement geolocation-based search instead of manual city input.</p>
 
-2. Add user reviews and ratings for labor professionals.
+<p>2. Add user reviews and ratings for labor professionals.</p>
 
-3. Enable direct messaging or chat between users and labors.
+<p>3. Enable direct messaging or chat between users and labors.</p>
 
-4. Deploy on cloud platforms (e.g., AWS, Azure) for production use.
+<p>4. Deploy on cloud platforms (e.g., AWS, Azure) for production use.</p>
 
 <hr>
 

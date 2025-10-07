@@ -20,6 +20,8 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 <h4>6. Responsive Interface:</h4> Frontend designed with React.js for an interactive and mobile-friendly experience.
 
+<hr>
+
 
 <h3>Technology Stack</h3>
 <h4>Frontend</h4>
@@ -40,6 +42,8 @@ ORM: Spring Data JPA for database operations
 
 REST APIs: Developed various endpoints for registration, authentication, profile management, and data retrieval
 
+<hr>
+
 <h3>System Architecture</h3>
 Frontend (React):
 Handles user interaction, routing between pages, and communicates with backend APIs using Axios.
@@ -49,7 +53,7 @@ Manages authentication, authorization, data validation, and API responses.
 
 Database (MySQL):
 Stores user and labor profiles, credentials, and application data.
-
+<hr>
 <h3>API Integration Flow</h3>
 The React frontend sends user actions (login, registration, search requests) via REST API calls.
 
@@ -58,7 +62,7 @@ The Spring Boot backend validates requests and generates JWT tokens for authenti
 Protected endpoints require a valid JWT token in the request headers.
 
 MySQL stores all user and labor data, managed through JPA repositories.
-
+<hr>
 <h3>Future Enhancements</h3>
 Implement geolocation-based search instead of manual city input.
 
@@ -67,6 +71,8 @@ Add user reviews and ratings for labor professionals.
 Enable direct messaging or chat between users and labors.
 
 Deploy on cloud platforms (e.g., AWS, Azure) for production use.
+
+<hr>
 
 <h2>Screenshots:-</h2>
 <img align="right" src="Screenshots/Screenshot (278).png" width="100%" height="100%">

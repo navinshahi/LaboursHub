@@ -21,11 +21,11 @@ Labour Hub is a web platform that connects labor professionals with users seekin
 
 <h3>Technology Stack</h3>
 <h4>Frontend</h4>
-<h5>Framework:</h5> React.js
+Framework: React.js
 
-<h5>UI Design:</h5> Bootstrap & CSS
+UI Design: Bootstrap & CSS
 
-<h5>API Integration:</h5> Axios used for communication with the backend REST APIs
+API Integration: Axios used for communication with the backend REST APIs
 
 Backend
 Framework: Spring Boot
